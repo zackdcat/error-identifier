@@ -1,7 +1,7 @@
 # error-identifier
 Hosting error identifer.
 
-npm i
-npm i dotenv
-npm i ejs
-npm start
+npm i<br>
+npm i dotenv<br>
+npm i ejs<br>
+npm start<br>
