@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- MAIN -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>zackdcat.site — Error Identifier AI</title>
+
+	<!-- META -->
+	<meta name="description" content="AI-powered error identifier tool by zackdcat. Paste your error and get an instant explanation and fix.">
+	<link rel="canonical" href="https://zackdcat.site/">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="zackdcat">
+	<meta property="og:title" content="zackdcat.site — Error Identifier AI">
+	<meta property="og:description" content="AI-powered error identifier tool by zackdcat. Paste your error and get an instant explanation and fix.">
+	<meta property="og:url" content="https://zackdcat.site/">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://zackdcat.site/images/favicon.png">
+
+
+	<!-- LINKS -->
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/stylesheets/style.css">
+	<link rel="icon" href="/images/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+	<div class="terminal">
+		<div class="terminal-bar">
+			<a href="/"><span class="dot red" ></span></a>
+			<span class="dot yellow"></span>
+			<span class="dot green"></span>
+		</div>
+		<div class="terminal-body">
+			<p class="prompt">$ error-identifier <span class="cursor"></span></p>
+			<div id="result">
+				<%= result %><br>
+				<p id="info">Click the red dot to go home!</p>
+			</div>
+
+		</div>
+	</div>
+	<form action="/diagnose" method="POST">
+		<textarea name="userPrompt" style="display:none"></textarea>
+	</form>
+	<a href="https://ko-fi.com/zackdcat" target="_blank" class="kofi-btn">
+		☕ Buy me a coffee
+	</a>
+	<script src="/javascripts/index.js"></script>
+</body>
+</html>
